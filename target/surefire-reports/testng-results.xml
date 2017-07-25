@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suit" duration-ms="87680" started-at="2017-07-25T13:49:12Z" finished-at="2017-07-25T13:50:39Z">
+  <suite name="Regression Suit" duration-ms="42954" started-at="2017-07-25T13:54:19Z" finished-at="2017-07-25T13:55:02Z">
     <groups>
     </groups>
-    <test name="Login test" duration-ms="87680" started-at="2017-07-25T13:49:12Z" finished-at="2017-07-25T13:50:39Z">
+    <test name="Login test" duration-ms="42954" started-at="2017-07-25T13:54:19Z" finished-at="2017-07-25T13:55:02Z">
       <class name="testScripts.TestScripts_1">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="setUP" is-config="true" duration-ms="12120" started-at="2017-07-25T19:19:12Z" finished-at="2017-07-25T19:19:24Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="setUP" is-config="true" duration-ms="11844" started-at="2017-07-25T19:24:19Z" finished-at="2017-07-25T19:24:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="testRegistraionWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="testRegistraionWithValidData" duration-ms="20175" started-at="2017-07-25T19:19:24Z" description="Test Registration with valid data" data-provider="Authentication" finished-at="2017-07-25T19:19:44Z">
+        <test-method status="PASS" signature="testRegistraionWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="testRegistraionWithValidData" duration-ms="15687" started-at="2017-07-25T19:24:31Z" description="Test Registration with valid data" data-provider="Authentication" finished-at="2017-07-25T19:24:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[B5@new.com]]>
+                <![CDATA[B9@new.com]]>
               </value>
             </param>
             <param index="1">
@@ -92,11 +92,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegistraionWithValidData -->
-        <test-method status="PASS" signature="testRegistraionWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="testRegistraionWithValidData" duration-ms="54514" started-at="2017-07-25T19:19:44Z" description="Test Registration with valid data" data-provider="Authentication" finished-at="2017-07-25T19:20:38Z">
+        <test-method status="PASS" signature="testRegistraionWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="testRegistraionWithValidData" duration-ms="14647" started-at="2017-07-25T19:24:47Z" description="Test Registration with valid data" data-provider="Authentication" finished-at="2017-07-25T19:25:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[B6@new.com]]>
+                <![CDATA[B10@new.com]]>
               </value>
             </param>
             <param index="1">
@@ -173,7 +173,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegistraionWithValidData -->
-        <test-method status="PASS" signature="EndTest()[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="EndTest" is-config="true" duration-ms="865" started-at="2017-07-25T19:20:38Z" finished-at="2017-07-25T19:20:39Z">
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:testScripts.TestScripts_1@3567135c]" name="EndTest" is-config="true" duration-ms="770" started-at="2017-07-25T19:25:01Z" finished-at="2017-07-25T19:25:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndTest -->
