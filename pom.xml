@@ -4,7 +4,7 @@
   <artifactId>POMNewJuly</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <!-- <build>
+ <build>
   <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -12,13 +12,12 @@
         <version>2.19.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testng2.xml</suiteXmlFile>
             <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
 </plugins>
-</build> -->
+</build>
 
   <dependencies>
 		<dependency>
