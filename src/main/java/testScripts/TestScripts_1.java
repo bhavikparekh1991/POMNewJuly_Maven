@@ -21,10 +21,10 @@ public class TestScripts_1 extends TestBase {
 	{
 		return new Object[][]
 		{ 
-	        { "N1@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}, 
-	        { "N2@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"},
-	        { "N3@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"},
-	        { "N4@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}
+	        { "B1@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}, 
+	        { "B2@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"},
+	        { "B3@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"},
+	        { "B4@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}
 	    };    
 	 
 	 }
