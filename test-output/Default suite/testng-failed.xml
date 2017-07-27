@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testScripts.TestScripts">
+      <class name="testScripts.DBConnection">
         <methods>
-          <include name="setUP"/>
-          <include name="EndTest"/>
-          <include name="testRegistraionWithValidData"/>
+          <include name="DBtest"/>
         </methods>
-      </class> <!-- testScripts.TestScripts -->
+      </class> <!-- testScripts.DBConnection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

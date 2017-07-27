@@ -21,8 +21,8 @@ public class TestScripts_1 extends TestBase {
 	{
 		return new Object[][]
 		{ 
-	        { "B9@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}, 
-	        { "B10@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}
+	        { "B15@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}, 
+	        { "B16@new.com", "Mr", "test", "rest", "qwer1234", "2", "January", "1992" , "Test Address 1", "TestCity", "Alaska", "20360", "United States", "7894561478", "tr@n.com"}
 	       
 	    };    
 	 

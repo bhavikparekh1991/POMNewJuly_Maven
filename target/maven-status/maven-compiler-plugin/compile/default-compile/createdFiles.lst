@@ -4,6 +4,7 @@ testScripts\TestScripts_1.class
 testBase\TestBase.class
 excelReader\ExcelUtils.class
 pages\LoginPage.class
+testScripts\DBConnection.class
 pages\HomePage.class
 config\Constants.class
 testScripts\TestScripts.class
