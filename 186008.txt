@@ -1,0 +1,138 @@
+start-generic_echo.sh ag_fulfillment_extract.pl dateentered=14-AUG-2017
+/lola/logs/ag_fulfillment_extract.pl_20170801x033751_10469.log
+https://giftcard-bankofamerica.test.cxloyaltyservices.com/rewards/app/login?pan=237508&lob=1
+-------------------------------------------------------------------
+462398
+/lola/logs/ag_fulfillment_extract.pl_20170801x023805_10075.log
+
+Refullfill 
+/lola/logs/ag_fulfillment_extract.pl_20170801x024115_8130.log
+-------------------------------------------------------------------
+462399 - Exceed Threshold
+/lola/logs/ag_fulfillment_extract.pl_20170801x025828_16221.log
+
+Refullfill
+/lola/logs/ag_fulfillment_extract.pl_20170801x030810_16634.log
+-------------------------------------------------------------------
+462404 - RUSH
+462405 - RUSH Exceed Threshold
+462406 - RUSH
+/lola/logs/ag_fulfillment_extract.pl_20170801x040746_6282.log
+/lola/logs/ag_fulfillment_extract.pl_20170801x052949_11041.log
+
+----------------------------------------------------------------------
+WEX
+462433 - Exceed Threshold
+/lola/logs/ag_fulfillment_extract.pl_20170801x094445_16163.log
+
+Refullfill
+/lola/logs/ag_fulfillment_extract.pl_20170801x100046_15188.log
+
+462434 - Not Exceeding Threshold
+
+462435 - Not Exceeding Threshold but Rush set
+
+462436 - Exceeding Threshold with Rush set
+/lola/logs/ag_fulfillment_extract.pl_20170801x102053_5598.log
+/lola/logs/ag_fulfillment_extract.pl_20170801x103259_9585.log
+-------------------------------------------------------------------------
+462451 - 6955339 Exceed Threshold value
+/lola/logs/ag_fulfillment_extract.pl_20170802x032742_12181.log
+
+462452 - 17478182 Exceed Threshold units
+/lola/logs/ag_fulfillment_extract.pl_20170802x034612_25.log
+
+462453 - 5481341 Not excedding Threshold
+/lola/logs/ag_fulfillment_extract.pl_20170802x035305_19250.log
+
+Refullfill
+/lola/logs/ag_fulfillment_extract.pl_20170802x040404_11594.log
+
+
+/lola/logs/ag_fulfillment_extract.pl_20170802x062333_7097.log
+
+
+
+WEX Enroll log - /lola/logs/wex_dataload.pl_20170802x065124_26068.log
+WEX Earn log - /lola/logs/wex_dataload.pl_20170802x075248_24424.log
+
+/lola/logs/ag_fulfillment_extract.pl_20170802x080627_3533.log
+/lola/logs/ag_fulfillment_extract.pl_20170802x082109_9844.log
+
+https://giftcard-bankofamerica.pt3.cxloyaltyservices.com/rewards/app/login?pan=6955339&lob=1
+/lola/logs/ag_fulfillment_extract.pl_20170802x110432_18234.log
+/lola/logs/ag_fulfillment_extract.pl_20170802x110635_20704.log
+
+------------------------------------------------------------------------------------
+462477 - 237508 Exceed Value
+462478 - 2773261 Exceed units
+462480 - 105672868 Not exceeding threshold
+462481 - 17478182 Exceed units
+462482-;
+
+/lola/logs/ag_fulfillment_extract.pl_20170803x045409_19232.log
+
+462483 - 17478182 Exceed Value
+462484 - 5481341 Rush selected
+462485 - 6955339 Rush selected with units exceeding
+462487 - 240636178 units exceeding
+
+/lola/logs/ag_fulfillment_extract.pl_20170803x052753_22747.log
+
+Refullfil
+/lola/logs/ag_fulfillment_extract.pl_20170803x062937_5972.log
+
+
+462553 - 105672868  Not exceeding threshold
+462555 - 237508 Exceed Value
+462558 - 2773261 Exceed units
+462563 - 17478182 Exceed Value
+462564 - 5481341 Rush selected
+462565 - 6955339 Rush selected with units exceeding
+462566 - 240636178 units exceeding
+/lola/logs/ag_fulfillment_extract.pl_20170804x074648_9468.log
+
+ReFullfill
+/lola/logs/ag_fulfillment_extract.pl_20170804x091457_29822.log
+
+462580 - WEX more unit 20.
+
+462612 - WEX more unit 18. 25452365
+462613 - WEX 1 unit. 25452368
+462614 - WEX 4 unit (100$ each).25451351
+462615 - WEX unit 20 with Rush selected. 25451340
+462616 - WEX 1 unit with Rush selected. 25451340
+462617 - WEX 1 unit with Rush selected. 25452373
+462618 - WEX 4 unit (100$ each) with Rush selected. 25451345
+/lola/logs/ag_fulfillment_extract.pl_20170807x025430_17043.log
+/lola/logs/ag_fulfillment_extract.pl_20170807x040455_5550.log
+
+1135023 - WEX more unit 18. 12986396
+1135024 - WEX 4 unit (100$ each). 12986398
+1135025 - WEX 4 unit (100$ each) with Rush selected. 12985537
+1135026 - WEX more unit 18 with Rush selected. 12985837
+1135027 - WEX 1 unit with Rush selected. 12985839
+1135028 - WEX 1 unit with . 12986633
+/lola/logs/ag_fulfillment_extract.pl_20170807x054028_792.log
+/lola/logs/ag_fulfillment_extract.pl_20170807x062459_21931.log
+
+Staging
+1135264 - 105672868  Not exceeding threshold
+1135266 - 50309218 Exceed Value
+1135267 - 2773261 Exceed units
+1135271 - 17478182 Exceed Value
+1135272 - 5481341 Rush selected
+1135275 - 6955339 Rush selected with units exceeding
+1135278 - 240636178 units exceeding
+/lola/logs/ag_fulfillment_extract.pl_20170814x035714_29376.log
+/lola/logs/ag_fulfillment_extract.pl_20170814x052746_13490.log
+
+1135285 - 12986396 WEX 1 unit with
+1135287 - 12986398 WEX 1 unit with Rush selected
+1135290 - 12985537 WEX 4 unit 
+1135291 - 12985537 WEX 12 units 
+1135292 - 12985837 WEX 16 unit with Rush selected 
+1135293 - 12985839 WEX 4 unit (100$ each) 
+1135294 - 12986633 WEX 4 unit (100$ each) with Rush selected
+/lola/logs/ag_fulfillment_extract.pl_20170814x063727_16875.log
+/lola/logs/ag_fulfillment_extract.pl_20170814x072445_8884.log
