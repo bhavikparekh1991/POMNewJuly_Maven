@@ -31,25 +31,244 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Login test_IE</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">53.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Login test_CH</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">67.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">2</td><td class="numi">2</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">67.5 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">testScripts.DBConnection</td><td><a href="#m1"><b>DBtest</b>  </a></td><td class="numi">1</td><td>1501062908590</td><td class="numi">47</td></tr>
+<tr><th colspan="4">Login test_IE &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">testScripts.TestScripts_1</td><td><a href="#m1"><b>beforeTesty</b>  </a></td><td class="numi">1</td><td>1501841699688</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Login test_IE &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">testScripts.TestScripts_1</td><td><a href="#m2"><b>EndTest</b>  </a></td><td class="numi">1</td><td>1501841752990</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Login test_IE &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">testScripts.TestScripts_1</td><td><a href="#m3"><b>testRegistraionWithValidData</b>  ("Test Registration with valid data")</a></td><td class="numi">2</td><td>1501841752988</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m4"><b>testRegistraionWithValidData</b>  ("Test Registration with valid data")</a></td><td class="numi">2</td><td>1501841752988</td><td class="numi">2</td></tr>
+<tr><th colspan="4">Login test_CH &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">testScripts.TestScripts_1</td><td><a href="#m5"><b>testRegistraionWithValidData</b>  ("Test Registration with valid data")</a></td><td class="numi">2</td><td>1501841726704</td><td class="numi">39667</td></tr><tr class="passedodd"><td><a href="#m6"><b>testRegistraionWithValidData</b>  ("Test Registration with valid data")</a></td><td class="numi">2</td><td>1501841726704</td><td class="numi">39667</td></tr>
 </table>
-<h1>Default test</h1>
-<h2 id="m1">testScripts.DBConnection:DBtest</h2>
-<div style="padding-left:3em">
-<p>oracle.jdbc.OracleDriver</p>
-java.net.URLClassLoader.findClass(Unknown Source)
-<br/>at java.lang.ClassLoader.loadClass(Unknown Source)
-<br/>at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-<br/>at java.lang.ClassLoader.loadClass(Unknown Source)
-<br/>at java.lang.Class.forName0(Native Method)
-<br/>at java.lang.Class.forName(Unknown Source)
-<br/>at testScripts.DBConnection.DBtest(DBConnection.java:17)
-<br/>25 lines not shown
-</div>
+<h1>Login test_IE</h1>
+<h2 id="m1">testScripts.TestScripts_1:beforeTesty</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>firefox</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ures\e10srollout@mozilla.org.xpi
+1501841716059	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.14
+1501841716060	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501841716060	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1501841716061	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501841716061	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1501841716063	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1501841716064	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1501841716064	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1501841716064	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1501841716064	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1501841716065	addons.manager	DEBUG	Starting provider: GMPProvider
+1501841716069	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1501841716069	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1501841716069	addons.manager	DEBUG	Starting provider: PluginProvider
+1501841716069	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1501841716069	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1501841716070	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1501841718874	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1501841718874	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1501841718875	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1501841718876	DeferredSave.extensions.json	DEBUG	Starting write
+1501841720509	addons.repository	DEBUG	No addons.json found.
+1501841720510	DeferredSave.addons.json	DEBUG	Save changes
+1501841720513	DeferredSave.addons.json	DEBUG	Starting timer
+1501841720572	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1501841720573	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1501841720573	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1501841720574	DeferredSave.extensions.json	DEBUG	Write succeeded
+1501841720574	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1501841720575	DeferredSave.addons.json	DEBUG	Starting write
+1501841720598	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=30.852) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1501841741573	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.0
+1501841741573	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1501841741574	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.14
+1501841741575	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1501841741814	addons.manager	DEBUG	shutdown
+1501841741814	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1501841741814	addons.xpi	DEBUG	shutdown
+1501841741815	addons.xpi-utils	DEBUG	shutdown
+1501841741815	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1501841741816	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1501841741818	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1501841741818	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1501841741819	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1501841741822	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1501841741825	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;CNDPBHAVIK&apos;, ip: &apos;172.25.248.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: FirefoxDriver</p>
+org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+<br/>at testBase.TestBase.selectBrowser(TestBase.java:49)
+<br/>at testBase.TestBase.init1(TestBase.java:33)
+<br/>at testScripts.TestScripts_1.beforeTesty(TestScripts_1.java:34)
+<br/>21 lines not shown
+<p>Caused by Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ures\e10srollout@mozilla.org.xpi
+1501841716059	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.14
+1501841716060	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1501841716060	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1501841716061	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1501841716061	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1501841716063	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1501841716064	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1501841716064	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1501841716064	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1501841716064	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1501841716065	addons.manager	DEBUG	Starting provider: GMPProvider
+1501841716069	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1501841716069	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1501841716069	addons.manager	DEBUG	Starting provider: PluginProvider
+1501841716069	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1501841716069	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1501841716070	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1501841718874	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1501841718874	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1501841718875	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1501841718876	DeferredSave.extensions.json	DEBUG	Starting write
+1501841720509	addons.repository	DEBUG	No addons.json found.
+1501841720510	DeferredSave.addons.json	DEBUG	Save changes
+1501841720513	DeferredSave.addons.json	DEBUG	Starting timer
+1501841720572	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1501841720573	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1501841720573	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1501841720574	DeferredSave.extensions.json	DEBUG	Write succeeded
+1501841720574	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1501841720575	DeferredSave.addons.json	DEBUG	Starting write
+1501841720598	DeferredSave.addons.json	DEBUG	Write succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=30.852) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1501841741573	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.0
+1501841741573	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1501841741574	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.14
+1501841741575	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1501841741814	addons.manager	DEBUG	shutdown
+1501841741814	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1501841741814	addons.xpi	DEBUG	shutdown
+1501841741815	addons.xpi-utils	DEBUG	shutdown
+1501841741815	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1501841741816	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1501841741818	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1501841741818	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1501841741819	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1501841741822	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1501841741825	addons.manager	DEBUG	Async provider shutdown done
+</p>
+org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+<br/>at testBase.TestBase.selectBrowser(TestBase.java:49)
+<br/>at testBase.TestBase.init1(TestBase.java:33)
+<br/>at testScripts.TestScripts_1.beforeTesty(TestScripts_1.java:34)
+<br/>21 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testScripts.TestScripts_1:EndTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testScripts.TestScripts_1:testRegistraionWithValidData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th></tr>
+<tr class="param stripe"><td>B33@new.com</td>
+<td>Mr</td>
+<td>test</td>
+<td>rest</td>
+<td>qwer1234</td>
+<td>2</td>
+<td>January</td>
+<td>1992</td>
+<td>Test Address 1</td>
+<td>TestCity</td>
+<td>Alaska</td>
+<td>20360</td>
+<td>United States</td>
+<td>7894561478</td>
+<td>tr@n.com</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testScripts.TestScripts_1:testRegistraionWithValidData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th></tr>
+<tr class="param stripe"><td>B34@new.com</td>
+<td>Mr</td>
+<td>test</td>
+<td>rest</td>
+<td>qwer1234</td>
+<td>2</td>
+<td>January</td>
+<td>1992</td>
+<td>Test Address 1</td>
+<td>TestCity</td>
+<td>Alaska</td>
+<td>20360</td>
+<td>United States</td>
+<td>7894561478</td>
+<td>tr@n.com</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Login test_CH</h1>
+<h2 id="m5">testScripts.TestScripts_1:testRegistraionWithValidData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th></tr>
+<tr class="param stripe"><td>B33@new.com</td>
+<td>Mr</td>
+<td>test</td>
+<td>rest</td>
+<td>qwer1234</td>
+<td>2</td>
+<td>January</td>
+<td>1992</td>
+<td>Test Address 1</td>
+<td>TestCity</td>
+<td>Alaska</td>
+<td>20360</td>
+<td>United States</td>
+<td>7894561478</td>
+<td>tr@n.com</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testScripts.TestScripts_1:testRegistraionWithValidData</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th></tr>
+<tr class="param stripe"><td>B34@new.com</td>
+<td>Mr</td>
+<td>test</td>
+<td>rest</td>
+<td>qwer1234</td>
+<td>2</td>
+<td>January</td>
+<td>1992</td>
+<td>Test Address 1</td>
+<td>TestCity</td>
+<td>Alaska</td>
+<td>20360</td>
+<td>United States</td>
+<td>7894561478</td>
+<td>tr@n.com</td>
+</tr>
+</table>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Regression_Suit">
+              <span class="suite-name border-skipped">Regression Suit</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\PBHAVIK\AppData\Local\Temp\testng-eclipse--1656092384\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suit">
+                    <span>C:\POMGit\POMNewJuly\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_Suit">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Regression_Suit">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Regression_Suit">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_Suit">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_Suit">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_Suit">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,21 +90,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">4 methods,  2 skipped,  2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Regression_Suit" class="hide-methods skipped suite-Regression_Suit"> (hide)</a> <!-- hide-methods skipped suite-Regression_Suit -->
+                      <a href="#" panel-name="suite-Regression_Suit" class="show-methods skipped suite-Regression_Suit"> (show)</a> <!-- show-methods skipped suite-Regression_Suit -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content skipped suite-Regression_Suit">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testScripts.DBConnection" hash-for-method="DBtest">DBtest</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suit" title="testScripts.TestScripts_1" hash-for-method="testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suit" title="testScripts.TestScripts_1" hash-for-method="testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Regression_Suit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Suit" class="hide-methods passed suite-Regression_Suit"> (hide)</a> <!-- hide-methods passed suite-Regression_Suit -->
+                      <a href="#" panel-name="suite-Regression_Suit" class="show-methods passed suite-Regression_Suit"> (show)</a> <!-- show-methods passed suite-Regression_Suit -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Suit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suit" title="testScripts.TestScripts_1" hash-for-method="testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suit" title="testScripts.TestScripts_1" hash-for-method="testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Suit -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -115,182 +139,212 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-Regression_Suit" class="panel Regression_Suit">
+          <div class="suite-Regression_Suit-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testScripts.DBConnection</span>
+              <img src="skipped.png"/>
+              <span class="class-name">testScripts.TestScripts_1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DBtest">
-                  </a> <!-- DBtest -->
-                  <span class="method-name">DBtest</span>
-                  <div class="stack-trace"><b>"java.lang.ClassNotFoundException: oracle.jdbc.OracleDriver
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at testScripts.DBConnection.DBtest(DBConnection.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-<br/> java.lang.ClassNotFoundException: oracle.jdbc.OracleDriver
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at testScripts.DBConnection.DBtest(DBConnection.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-"</b><br>java.net.URLClassLoader.findClass(Unknown Source)<br>java.lang.ClassLoader.loadClass(Unknown Source)<br>sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)<br>java.lang.ClassLoader.loadClass(Unknown Source)<br>java.lang.Class.forName0(Native Method)<br>java.lang.Class.forName(Unknown Source)<br>testScripts.DBConnection.DBtest(DBConnection.java:17)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br>
-</div> <!-- stack-trace -->
+                  <a name="testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">
+                  </a> <!-- testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...) -->
+                  <span class="method-name">testRegistraionWithValidData</span>
+                  <span class="parameters">(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, United States, 7894561478, tr@n.com)</span>
+                  <em>
+(Test Registration with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">
+                  </a> <!-- testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...) -->
+                  <span class="method-name">testRegistraionWithValidData</span>
+                  <span class="parameters">(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, United States, 7894561478, tr@n.com)</span>
+                  <em>
+(Test Registration with valid data)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Regression_Suit-class-skipped -->
+          <div class="suite-Regression_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScripts.TestScripts_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">
+                  </a> <!-- testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...) -->
+                  <span class="method-name">testRegistraionWithValidData</span>
+                  <span class="parameters">(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, United States, 7894561478, tr@n.com)</span>
+                  <em>
+(Test Registration with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)">
+                  </a> <!-- testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...) -->
+                  <span class="method-name">testRegistraionWithValidData</span>
+                  <span class="parameters">(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, United States, 7894561478, tr@n.com)</span>
+                  <em>
+(Test Registration with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suit-class-passed -->
+        </div> <!-- panel Regression_Suit -->
+        <div panel-name="test-xml-Regression_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\PBHAVIK\AppData\Local\Temp\testng-eclipse--1656092384\testng-customsuite.xml</span>
+            <span class="header-content">C:\POMGit\POMNewJuly\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite name=&quot;Regression Suit&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Login test_CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testScripts.DBConnection&quot;/&gt;
+      &lt;class name=&quot;testScripts.TestScripts_1&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Login test_CH --&gt;
+  &lt;test name=&quot;Login test_IE&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScripts.TestScripts_1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login test_IE --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suit --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Regression_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Regression Suit</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Login test_CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login test_IE (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Regression_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Regression Suit</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Regression_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Regression Suit</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Regression_Suit');
+function tableData_Regression_Suit() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DBtest')
-data.setCell(0, 2, 'testScripts.DBConnection')
-data.setCell(0, 3, 47);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'testRegistraionWithValidData')
+data.setCell(0, 2, 'testScripts.TestScripts_1')
+data.setCell(0, 3, 22696);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRegistraionWithValidData')
+data.setCell(1, 2, 'testScripts.TestScripts_1')
+data.setCell(1, 3, 16971);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRegistraionWithValidData')
+data.setCell(2, 2, 'testScripts.TestScripts_1')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRegistraionWithValidData')
+data.setCell(3, 2, 'testScripts.TestScripts_1')
+data.setCell(3, 3, 0);
+window.suiteTableData['Regression_Suit']= { tableData: data, tableDiv: 'times-div-Regression_Suit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-Regression_Suit">
+              </div> <!-- times-div-Regression_Suit -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Regression_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Regression Suit</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Regression_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScripts.TestScripts_1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testRegistraionWithValidData</span>
+                <br/>
+                <span class="ignored-method-name">testRegistraionWithValidData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Regression_Suit" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.DBConnection</div> <!-- chronological-class-name -->
-              <div class="test-method">
+              <div class="chronological-class-name">testScripts.TestScripts_1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">DBtest</span>
+                <span class="method-name">beforeTesty(firefox)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTesty(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</span>
+                <span class="method-start">27016 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</span>
+                <span class="method-start">49712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistraionWithValidData(B34@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</span>
+                <span class="method-start">53300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistraionWithValidData(B33@new.com, Mr, test, rest, qwer1234, 2, January, 1992, Test Address 1, TestCity, Alaska, 20360, Un...)</span>
+                <span class="method-start">53302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">EndTest</span>
+                <span class="method-start">66684 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

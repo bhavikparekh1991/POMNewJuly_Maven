@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Regression Suit]">
-  <test name="Login test(failed)">
+<suite verbose="0" name="Failed suite [Regression Suit]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="Login test_IE(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
     <classes>
-      <class name="testScripts.DBConnection">
+      <class name="testScripts.TestScripts_1">
         <methods>
-          <include name="DBtest"/>
+          <include name="setUP"/>
+          <include name="beforeTest"/>
+          <include name="setUP"/>
+          <include name="beforeTest"/>
+          <include name="testRegistraionWithValidData"/>
         </methods>
-      </class> <!-- testScripts.DBConnection -->
+      </class> <!-- testScripts.TestScripts_1 -->
     </classes>
-  </test> <!-- Login test(failed) -->
+  </test> <!-- Login test_IE(failed) -->
+  <test name="Login test_FF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testScripts.TestScripts_1">
+        <methods>
+          <include name="setUP"/>
+          <include name="beforeTest"/>
+          <include name="setUP"/>
+          <include name="beforeTest"/>
+          <include name="testRegistraionWithValidData"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts_1 -->
+    </classes>
+  </test> <!-- Login test_FF(failed) -->
 </suite> <!-- Failed suite [Regression Suit] -->

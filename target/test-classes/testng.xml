@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suit">
-	<test name="Login test">
+
+<test name="Login test_CH">
+	<parameter name="browser" value="chrome" />
 		<classes>
-			<!-- <class name="com.companyname.projectname.testscripts.TC001_testLogin"/> -->
+			
 			<class
 				name="testScripts.TestScripts_1" />
 		</classes>
 	</test> <!-- Test -->
+	
+	<!-- <test name="Login test_IE">
+	<parameter name="browser" value="firefox" />
+		<classes>
+			
+			<class
+				name="testScripts.TestScripts_1" />
+		</classes>
+	</test> Test -->
+	
 </suite> <!-- Suite -->
 

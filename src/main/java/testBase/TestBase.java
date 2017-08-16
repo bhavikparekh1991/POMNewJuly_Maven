@@ -27,6 +27,14 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
+	public void init1(String browser) throws IOException
+	{
+		//loadPropertiesFile();
+		selectBrowser(browser);
+		driver.get("http://automationpractice.com/");
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
 	public void loadPropertiesFile() throws IOException {
 		f = new File(System.getProperty("user.dir") + "//src//main//java//config//config.properties");
 		FI = new FileInputStream(f);
@@ -36,7 +44,10 @@ public class TestBase {
 	
 	public WebDriver selectBrowser(String browser) {
 		if (browser.equals("firefox") || browser.equals("FIREFOX")) {
+			String driverPath = "C:/Users/PBHAVIK/Downloads/geckodriver-v0.14.0-win64/geckodriver.exe";
+			System.setProperty("webdriver.firefox.marionette", driverPath);
 			driver = new FirefoxDriver();
+			
 			driver.manage().window().maximize();
 			return driver;
 		} else if (browser.equals("chrome") || browser.equals("CHROME")) {
@@ -46,6 +57,7 @@ public class TestBase {
 			driver.manage().window().maximize();
 			return driver;
 		} else if (browser.equals("ie") || browser.equals("IE")) {
+			System.setProperty("webdriver.ie.driver", "C:/Users/PBHAVIK/Downloads/IEDriverServer_Win32_3.4.0/IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();
 			return driver;
